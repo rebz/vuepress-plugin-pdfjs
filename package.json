@@ -1,11 +1,8 @@
 {
   "name": "vuepress-plugin-pdfjs",
-  "version": "0.0.1-beta",
+  "version": "0.0.1-beta.01",
   "description": "VuePress plugin incorporating Mozilla's PDFjs",
   "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rebz/vuepress-plugin-pdfjs.git"
