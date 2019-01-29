@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-pdfjs",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-beta",
   "description": "VuePress plugin incorporating Mozilla's PDFjs",
   "main": "index.js",
   "publishConfig": {

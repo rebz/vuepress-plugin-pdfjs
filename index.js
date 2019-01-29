@@ -1,14 +1,18 @@
-const { path } = require('@vuepress/shared-utils')
+// const path = require('path')
 
-module.exports = (options, ctx) => {
+module.exports = (options, ctx) => ({
 
-    return {
-        name: 'pdfjs',
-        enhanceAppFiles: [
-            path.resolve(__dirname, 'enhanceAppFile.js')
-        ],
-        generated() {
-            console.log('vuepress-plugin-pdfjs generated!')
-        }
+    // name: 'pdfjs',
+    //
+    // enhanceAppFiles: [
+    //     path.resolve(__dirname, 'enhanceAppFile.js')
+    // ],
+
+    ready () {
+        console.log('vuepress-plugin-pdfjs ready!')
+    },
+
+    generated() {
+        console.log('vuepress-plugin-pdfjs generated!')
     }
-}
+})
