@@ -1,0 +1,26 @@
+{
+  "name": "vuepress-plugin-pdfjs",
+  "version": "0.0.1",
+  "description": "VuePress plugin incorporating Mozilla's PDFjs",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebz/vuepress-plugin-pdfjs.git"
+  },
+  "keywords": [
+    "vue",
+    "vuepress",
+    "pdf",
+    "pdfjs",
+    "reference"
+  ],
+  "author": "Chris Johnson <chris@rebzmedia.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rebz/vuepress-plugin-pdfjs/issues"
+  },
+  "homepage": "https://github.com/rebz/vuepress-plugin-pdfjs#readme"
+}

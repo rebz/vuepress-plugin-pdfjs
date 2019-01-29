@@ -1,2 +1,3 @@
-# vuepress-plugin-pdfjs
-VuePress plugin incorporating Mozilla's PDFjs
+# rebz/vuepress-plugin-pdfjs
+
+> PDF Viewer Plugin for VuePress using Mozilla's PDFJS
